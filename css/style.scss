@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+//============ grid =========//
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+//=========== header ========//
+
+
