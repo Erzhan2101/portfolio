@@ -124,5 +124,47 @@
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
+.about {
+  background: #020024;
+  padding: 100px 0 100px;
+}
+.about span {
+  text-align: center;
+  color: #6a1a21;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+}
+.about__title {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+.about__content {
+  width: 569px;
+}
+.about__name {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.about__text {
+  color: #bdabab;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+}
+.about__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 44px;
+}
+.about__img-carousel {
+  height: 340px;
+  width: 340px;
+  border-radius: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */
