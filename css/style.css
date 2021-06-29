@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,24 +6,8 @@
   text-decoration: none;
 }
 
-body {
-  font-family: "Arimo", sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  display: inline-block;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.container {
-  max-width: 1300px;
+.max-width {
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -32,7 +16,10 @@ html {
   position: fixed;
   padding: 15px 0;
   width: 100%;
-  background: #950000;
+  background: #020024;
+  box-shadow: 0 5px 24px 5px rgba(132, 9, 24, 0.72);
+  font-family: "Ubuntu", sans-serif;
+  z-index: 10;
 }
 
 .navbar .max-width {
@@ -57,6 +44,85 @@ html {
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
+}
+
+.home {
+  padding: 240px 0 1px;
+  background: #020024;
+  background: linear-gradient(125deg, #020024 52%, #790909 100%, black 100%);
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+  font-size: 27px;
+}
+
+.home .home-content .text-2 {
+  font-size: 27px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.home .home-content .text-3 span {
+  color: #6a1a21;
+  font-size: 50px;
+}
+
+.img1 img {
+  border-radius: 20px;
+  right: 215px;
+  top: 155px;
+  height: 330px;
+  width: 330px;
+  position: absolute;
+}
+
+.arrow-down {
+  margin: 150px 760px;
+  position: relative;
+}
+
+.arrow-down span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #782930;
+  border-right: 5px solid #782930FF;
+  transform: rotate(45deg);
+  margin: -16px;
+  animation: arrow-down 2s infinite;
+}
+
+.arrow-down span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow-down span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes arrow-down {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
