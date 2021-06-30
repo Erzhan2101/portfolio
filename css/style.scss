@@ -13,7 +13,9 @@
   padding: 0 15px;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 //=== navbar styling ===//
 
 .navbar {
@@ -93,7 +95,7 @@
 .arrow-down {
   position: absolute;
   left: 683px;
-  bottom: 90px;
+  bottom: 170px;
 }
 
 .arrow-down span {
@@ -182,22 +184,19 @@
 
 }
 
-.owl-carousel .owl-item img {
-  display: block;
-}
 
 //==== services =====//
 
 .services {
   background: rgb(71, 5, 21);
-  background: linear-gradient(0deg, rgba(71, 5, 21, 1) 0%, rgba(2, 0, 36, 1) 85%);
-  padding: 100px 0 55px;
+  background: linear-gradient(0deg, #470515 0%, #020024 126%);
+  padding: 176px 0 55px;
 
   &__title {
     font-size: 40px;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
-    margin: 40px 0 40px;
+    margin: 40px 0 80px;
     color: #FFFFFF;
 
     span {
@@ -251,7 +250,6 @@
 }
 
 
-
 .active {
   flex: 10;
 }
@@ -285,32 +283,193 @@
 
 //========== skills =========//
 .skills {
-  padding: 100px 0 142px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(71, 5, 21, 1) 69%);
+  padding: 150px 0 142px;
+  background: #020024;
+  background: linear-gradient(0deg, #020024 0%, #470515 99%);
 
-&__container{
 
-}
+  &__container {
+
+  }
 
   &__title {
     font-size: 40px;
     text-align: center;
     font-family: "Ubuntu", sans-serif;
-    margin: 40px 0 60px;
+    margin: 40px 0 80px;
     color: #FFFFFF;
 
     span {
       color: #6a1a21;
       font-family: "Ubuntu", sans-serif;
-      font-size: 40px;;
+      font-size: 40px;
+
+
     }
   }
-  &__box{
-    height: 400px;
+
+  &__content {
+    height: 349px;
     width: 100%;
+    padding: 20px 30px;
     border-radius: 30px;
-    background-color: #020024FF;
-    box-shadow: 0 0 11px 3px #FFFFFF
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+  }
+
+  &__desc {
+    color: #6a1a21;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    color: #020024;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  &__right img {
+    height: 100px;
+    width: 120px;
+
+  }
+
+  &__right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+  }
+}
+.bars {
+  margin-bottom: 10px;
+}
+
+.info {
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .lan {
+    color: #020024;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
+
+  span {
+    color: #6a1a21;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+  }
+
+
+}
+
+//========= contacts =======//
+
+.contacts {
+  background: #020024;
+  padding: 43px 0 72px;
+  position: relative;
+}
+
+.contacts-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 55px;
+
+}
+
+.contacts-title span {
+  color: #6a1a21;
+
+}
+
+.contacts-form {
+  width: 476px;
+  margin: 0 auto;
+}
+
+.contacts-upper-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-upper-form input {
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  background: transparent;
+  width: 178px;
+
+}
+
+.contacts-email {
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  background: transparent;
+  width: 476px;
+  margin: 54px 0;
+}
+
+.contacts-btn {
+  font-weight: 500;
+  line-height: 19px;
+  color: #D5D6D8;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 8px 59px;
+  background: transparent;
+  transition: .4s;
+}
+
+.contacts-btn:hover{
+  background: #470515;
+}
+
+.contacts svg {
+  position: absolute;
+  top: -40px;
+  right: 133px;
+}
+
+.contacts-form ::placeholder {
+  color: #D5D6D8;
+}
+
+.contacts-deck{
+  margin-top: 40px;
+text-align: center;
+ }
+
+
+.contacts-deck img{
+  height: 40px;
+  width: 40px;
+  margin-right: 30px;
+}
+
+//======== footer =====//
+
+.footer{
+  background: #470515;
+  padding: 40px 0;
+  text-align: center;
+
+  &__text{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
   }
 }

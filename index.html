@@ -22,11 +22,11 @@
             <a href="#">Portfo<span>lio.</span></a>
         </div>
         <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacts">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -39,10 +39,13 @@
             <div class="text-2">Taalibekov Erzhan</div>
             <div class="text-3">And I am a <br><span>beginner full stack developer</span></div>
         </div>
-        <div class="arrow-down">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div  class="arrow-down">
+            <a href="#about">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
         </div>
     </div>
 </section>
@@ -63,45 +66,40 @@
                 excepturi exercitationem explicabo labore odit officia provident quas quisquam sequi.</p>
         </div>
         <div>
-            <div class="owl-carousel">
-                <img class="about__img-carousel" src="./img/3.jpeg" alt="">
-                <img class="about__img-carousel" src="./img/4.jpeg" alt="">
-                <img class="about__img-carousel" src="./img/5.jpeg" alt="">
-                <img class="about__img-carousel" src="./img/6.jpeg" alt="">
-            </div>
+            <img class="about__img-carousel" src="./img/6.jpeg" alt="">
         </div>
     </div>
 </section>
 <!-- ------services------ -->
 
-<section class="services">
+<section class="services" id="services">
     <div class="services__container max-width">
-        <h2 class="services__title">What <span>services</span> do I use</h2>
+        <h2 class="services__title">What <span>Services</span> do I use</h2>
         <div class="services__box">
             <div class="container">
                 <div class="slide  slide1 active">
                     <a class="arrow-circle" href="https://erzhan2101.github.io/growbe/">
-                        <h3 >DEMO</h3>
+                        <h3>See the project</h3>
                     </a>
                 </div>
                 <div class="slide slide2">
                     <a href="https://erzhan2101.github.io/Leading-it/">
-                        <h3 >DEMO</h3>
+                        <h3>See the project</h3>
                     </a>
                 </div>
                 <div class="slide slide3">
                     <a href="https://erzhan2101.github.io/bello/">
-                        <h3 >DEMO</h3>
+                        <h3>See the project</h3>
                     </a>
                 </div>
                 <div class="slide slide4">
                     <a href="https://erzhan2101.github.io/MNTN7/">
-                        <h3 >DEMO</h3>
+                        <h3>See the project</h3>
                     </a>
                 </div>
                 <div class="slide slide5">
                     <a href="https://erzhan2101.github.io/barbershop/">
-                        <h3 >DEMO</h3>
+                        <h3>See the project</h3>
                     </a>
                 </div>
             </div>
@@ -110,14 +108,72 @@
 </section>
 
 <!--  ------skills------  -->
-<section class="skills">
+<section class="skills" id="skills">
     <div class="max-width">
-        <h2 class="skills__title">My <span>skills</span> and abilities</h2>
-        <div class="skills__box">
+        <h2 class="skills__title">My <span>Skills</span></h2>
+        <div class="skills__content">
+            <div class="skills__left">
+                <h2 class="skills__desc">My abilities and knowledge</h2>
+                <p class="skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maiores minus
+                    nemo nulla quidem suscipit voluptate! Alias assumenda blanditiis consectetur dolorum eius enim
+                    est
+                    ex exercitationem inventore, ipsum iure iusto laborum magni molestiae molestias necessitatibus
+                    nihil
+                    nisi omnis pariatur, quisquam quod recusandae rerum sit veniam voluptatem! Adipisci architecto
+                    consectetur eum eveniet ipsum nobis vitae? Accusamus ad alias aliquam aperiam at beatae culpa,
+                    cum
+                    dolor ea enim eveniet explicabo illo illum iusto optio perspiciatis qui quod recusandae rem
+                    reprehenderit rerum sint soluta totam veniam voluptates. Amet enim facilis ipsam vel? Eveniet
+                    hic
+                    maiores molestiae nisi pariatur placeat veritatis! Error quasi, vitae?</p>
+            </div>
+            <div class="skills__right">
+                <img src="./img/html.png" alt="">
+                <img src="./img/css.png" alt="">
+                <img src="./img/sass.png" alt="">
+                <img src="./img/Bootstrap.png" alt="">
+                <img src="./img/javascript-2752148-2284965.png" alt="">
+                <img src="./img/github.png" alt="">
 
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="contacts" id="contacts">
+    <div class="max-width">
+        <h2 class="contacts-title">DON'T HESITATE TO <span>CONTACT</span> ME</h2>
+        <form class="contacts-form">
+            <div class="contacts-upper-form">
+                <label>
+                    <input type="text" required placeholder="name *">
+                </label>
+                <label>
+                    <input type="text" placeholder="surname">
+                </label>
+            </div>
+            <label>
+                <input class="contacts-email" type="email" required placeholder="email *">
+            </label>
+            <button class="contacts-btn">submit</button>
+        </form>
+        <div class="contacts-deck">
+            <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.instagram.com%2Ferjan2101%2F&cc_key=">
+                <img src="./img/insta.png" alt="">
+            </a>
+            <a href="https://vk.com/erzhan210">
+                <img src="./img/vk.png" alt="">
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+                <img src="./img/gmail.png" alt="">
+            </a>
         </div>
     </div>
 </section>
+</main>
+<footer class="footer">
+        <p class="footer__text">All Right Reserved</p>
+</footer>
 <!--<script src="./js/bootstrap.min.js"></script>-->
 <script src="./js/jquery.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
