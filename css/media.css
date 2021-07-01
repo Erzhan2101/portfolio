@@ -1,5 +1,6 @@
 @media (max-width: 1200px) {
     /* 993 - 1200 */
+
     .container {
         max-width: 970px;
     }
@@ -120,6 +121,7 @@
     .max-width {
         max-width: 540px;
     }
+
     .navbar {
         display: flex;
     }
@@ -142,6 +144,7 @@
     .navbar .menu li {
         margin-bottom: 14px;
     }
+
     .bx {
         margin-left: 75px;
     }
@@ -262,7 +265,8 @@
 @media (max-width: 480px) {
     /* 320 - 480 */
     .navbar .logo a {
-        font-size: 30px;}
+        font-size: 30px;
+    }
 
     .home .home-content .text-1 {
         font-size: 21px;
@@ -319,8 +323,8 @@
 
     .slide h3 {
         position: absolute;
-        font-size: 6px;
-        bottom: -11px;
+        font-size: 10px;
+        bottom: 2px;
         left: 0;
         border-bottom: unset;
     }
@@ -345,23 +349,30 @@
         font-size: 10px;
         line-height: 16px;
     }
+
     .skills__right img {
         height: 87px;
         width: 93px;
         margin-bottom: 16px;
     }
+
     .skills__right {
+        margin: 0 auto;
         column-gap: 20px;
-        margin: 30px 0 30px auto;
     }
+
     .contacts-title {
-        font-size: 21px;}
+        font-size: 21px;
+    }
+
     .contacts-upper-form input {
         width: 133px;
     }
+
     .contacts-form {
         width: 296px;
     }
+
     .contacts-email {
         width: 296px;
     }

@@ -50,7 +50,7 @@ html {
 }
 
 .mobile-menu {
-  display: block;
+  display: none;
   z-index: 1111;
   color: #FFFFFF;
   border: none;
