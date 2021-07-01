@@ -49,6 +49,16 @@ html {
   margin-left: 25px;
 }
 
+.mobile-menu {
+  display: block;
+  z-index: 1111;
+  color: #FFFFFF;
+  border: none;
+  background: transparent;
+  font-size: 36px;
+  cursor: pointer;
+}
+
 .home {
   padding: 240px 0 295px;
   background: #020024;
